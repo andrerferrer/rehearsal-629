@@ -3,10 +3,10 @@
 First clone this repository to your laptop. You must have Node (> v4) and [yarn](https://yarnpkg.com/lang/en/docs/install/) installed.
 
 ```bash
-cd ~/code/<your_github_nickname>
-git clone ggit@github.com:andrerferrer/rehearsal-boilerplate.git rehearsal
+cd ~/code/$USER
+git clone git@github.com:andrerferrer/rehearsal-boilerplate.git rehearsal
 cd rehearsal
-rm -rf .git
+
 yarn install
 stt # Open this folder in Sublime Text
 ```
